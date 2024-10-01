@@ -1,0 +1,68 @@
+body {
+	background-image: url("pac-man map.png");
+	background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0; 
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container img {
+	margin: 5px;
+	padding: 10px;
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+}
+.container button {
+	margin: 10px;
+	padding: 10px;
+	background-color: #21221F;
+	border-radius: 50px;
+}
+#image-1 {
+	background-color: #347532;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #B2FF61;
+	border-radius: 20px;
+	transition: background-color 0.3s ease;
+}
+#image-2 {
+	background-color: #122C89;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #5DD1FF;
+	border-radius: 20px;
+	transition: border-color 0.3s ease;
+}
+#image-3 {
+	background-color: #8A5400;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #FF9C00;
+	border-radius: 20px;
+	transition: border-color 0.3s ease;
+}
+#image-4 {
+	background-color: #5B0E0E;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #E90303;
+	border-radius: 20px;
+	transition: border-color 0.3s ease;
+}
+.light-up {
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+	 background-color: #21221F;
+}
+
+@media and (min-width: 640px);
